@@ -28,7 +28,7 @@ namespace Switch
 
             if (devices.Count < 1)
             {
-                richTextBox1.AppendText("Žiadne Zariadenia!");
+                richTextBox1.AppendText("Žiadne zariadenia!");
             }
                 
             foreach (ICaptureDevice dev in devices)
