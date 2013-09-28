@@ -28,12 +28,12 @@ namespace Switch
 
             if (devices.Count < 1)
             {
-                richTextBox1.AppendText("Žiadne zariadenia!");
+                richTextBox1.AppendText("Žiadne Zariadenia!");
             }
                 
             foreach (ICaptureDevice dev in devices)
             {
-                richTextBox1.AppendText(dev.Description.ToString() + "\n");
+                richTextBox1.AppendText(dev.Description.ToString() + "\n"); //vypise nazov karty
                 
             }
 
